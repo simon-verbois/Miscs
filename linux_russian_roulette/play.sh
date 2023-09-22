@@ -1,7 +1,7 @@
 #!/bin/bash
 
 while true; do
-    echo "Press any key to start."
+    echo "Press any key to play."
     read -n 1 key
 
     random_number=$((1 + RANDOM % 6))
