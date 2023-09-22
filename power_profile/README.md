@@ -14,5 +14,5 @@ sudo crontab -e
 ```
 Add this line
 ```
-* * * * * bash /usr/bin/power_profile
+*/5 * * * * bash /usr/bin/power_profile
 ```
